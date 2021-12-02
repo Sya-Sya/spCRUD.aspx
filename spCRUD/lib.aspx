@@ -26,12 +26,6 @@
                     <a class="nav-link" href="#">About</a>
                 </li>
             </ul>
-            <%--<div>
-                <div class="d-grid gap-2 d-md-flex">
-                    <asp:Button ID="Button1" class="btn btn-outline-success btn-lg mr-3" runat="server" Text="Log In" />
-                    <asp:Button ID="Button2" class="btn btn-outline-success btn-lg mr-3" runat="server" Text="Register" />
-                </div>
-            </div>--%>
         </div>
     </nav>
     <div class=" container mt-5">
@@ -72,6 +66,9 @@
             <asp:GridView ID="GridView1" runat="server"></asp:GridView>
         </form>
     </div>
-    </div>
+    <p>
+        <h1>Even if you add data the data will not be displayed !!!</h1>\
+        <h3><bold>Thank EW :P</bold></h3>
+    </p>
 </body>
 </html>
